@@ -1,0 +1,37 @@
+{
+  "name": "action-upload-diawi",
+  "version": "1.2.1",
+  "description": "📦 GitHub Action for uploading APK to Diawi",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "eslint index.js && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnkdsh/action-upload-diawi.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "JavaScript",
+    "Diawi",
+    "APK"
+  ],
+  "author": "Ronak Doshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rnkdsh/action-upload-diawi/issues"
+  },
+  "homepage": "https://github.com/rnkdsh/action-upload-diawi#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "axios": "^0.22.0",
+    "fs": "0.0.1-security",
+    "path": "0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^27.2.5"
+  }
+}
