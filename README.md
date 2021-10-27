@@ -1,4 +1,4 @@
-# maximum 75mb for free acount
+# maximum 75mb for free account
 
 <div align="center">
   📦
@@ -57,6 +57,8 @@ with:
   token: ${{ secrets.DIAWI_TOKEN }}
   file: ./example.apk
 ```
+
+# upload-diawi
 
 # upload-diawi
 # upload-diawi
